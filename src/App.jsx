@@ -1,5 +1,25 @@
+import { useState } from "react";
+
+import searchImages from "./api";
+
+import SearchBar from "./components/SearchBar";
+import ImageList from "./components/ImageList";
+
 function App() {
-  return <div className="App">App</div>;
+  const [images, setImages] = useState([]);
+
+  const handleSubmit = async (searchInput) => {
+    const res = await searchImages(searchInput);
+
+    setImages(res);
+  };
+
+  return (
+    <div className="App">
+      <SearchBar onSubmit={handleSubmit} />
+      <ImageList images={images} />
+    </div>
+  );
 }
 
 export default App;
