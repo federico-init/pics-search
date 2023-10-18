@@ -1,5 +1,5 @@
 # Pics Search
-App minimal che permette tramite ricerca da input di ottenere una lista di immagini.
+A minimal app that allows users to obtain a list of images through input search.
 
 ## Stack
 
@@ -8,4 +8,4 @@ App minimal che permette tramite ricerca da input di ottenere una lista di immag
 ## API
 
 [Unsplash API](https://unsplash.com/developers)<br/><br/>
-La chiamata API viene eseguita tramite Axios.
+The API is called through Axios library.
