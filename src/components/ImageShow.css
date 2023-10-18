@@ -1,4 +1,10 @@
 img {
   width: 100%;
   margin-bottom: 10px;
+  transition: scale 0.35s ease-in-out;
+  cursor: pointer;
+}
+
+img:hover {
+  scale: 1.01;
 }
