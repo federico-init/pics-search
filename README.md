@@ -8,4 +8,4 @@ A minimal app that allows users to obtain a list of images through input search.
 ## API
 
 [Unsplash API](https://unsplash.com/developers)<br/><br/>
-The API is called through Axios library.
+Data from API is retrieved using Axios library.
