@@ -7,18 +7,7 @@ function ImageList({ images }) {
     return <ImageShow image={image} key={image.id} />;
   });
 
-  return (
-    <div className="ImageList">
-      {images.length ? (
-        renderedImages
-      ) : (
-        <p className="noResults">
-          Sorry, we couldn't find any results.
-          <br /> Try another search.
-        </p>
-      )}
-    </div>
-  );
+  return <div className="ImageList">{renderedImages}</div>;
 }
 
 export default ImageList;

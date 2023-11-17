@@ -1,5 +1,4 @@
 .ImageList {
-  margin: 0 10px;
   columns: 4 200px;
   column-gap: 10px;
 }
